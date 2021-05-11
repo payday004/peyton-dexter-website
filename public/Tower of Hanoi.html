@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Tower of Hanoi</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
+    </head>
+
+
+    <body>
+
+
+        <nav class="navbar-expand-lg">
+            <ul class="nav justify-content-end">
+
+                <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="projects.html" >Projects</a>
+                </li>
+
+
+            </ul>
+        </nav>
+
+
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="text-center display-4">Tower of Hanoi </h1>
+                <p class="text-center lead">Java program that visualizes the famous math and logic puzzle, Tower of Hanoi</p>
+            </div>
+        </div>
+
+
+        <div class="container" style="padding-bottom: 40px; padding-top: 40px">
+            <div class="row" style="padding-bottom: 40px">
+                <a href="https://github.com/payday004/Tower-of-Hanoi" style="padding-bottom: 40px" target="_blank">
+                    Link to GitHub Repo
+                </a>
+                <p>
+                    Towers of Hanoi was my favorite project from CS 2114. The Tower of Hanoi puzzle was invented in the 19th century
+                    by French mathematician Édouard Lucas. The puzzle starts with 3 rods and a given number of circular disks of different sizes
+                    organized in ascending order on the left most rod. The objective of the puzzle is to move the stack to
+                    the right most rod, preserving the order, and without ever placing a larger disk on a smaller disk. My visualization
+                    implements the Stack data structure and recursion to show the solution.
+                </p>
+                <p>
+                    Below is a video by Reducible that dose a great job of explaining the solution in depth.
+                </p>
+
+                <div class="col-2"></div>
+                <div class="col-8">
+                    <div class="ratio ratio-16x9">
+                        <iframe
+                                src="https://www.youtube.com/embed/rf6uf3jNjbo"
+                                title="YouTube video"
+                                allowfullscreen
+                        ></iframe>
+                    </div>
+                </div>
+                <div class="col-2"></div>
+
+
+
+
+
+
+            </div>
+
+
+            <div class="row">
+                <p>
+                    To run the visualization program on your computer, make sure you have Java installed and added to your PATH.
+                    download the jar file listed below.
+                </p>
+                <div class="col-5"></div>
+                <div class="col-6" style="padding-bottom: 20px"><a href="towershanoi.jar" download > towershanoi.jar </a></div>
+
+
+                <p>
+                    Open Command Prompt and navigate to the directory where the .jar file is saved. In the terminal run the prompt below.
+                </p>
+                <h1 class="text-center" style="padding-bottom: 20px">java -jar towershanoi.jar 6</h1>
+                <p>
+                    6 indicates that the program will start with 6 disks. You can play around with this number.
+                </p>
+            </div>
+
+
+        </div>
+
+
+
+    </body>
+</html>
